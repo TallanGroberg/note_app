@@ -3,10 +3,7 @@ class PagesController < ApplicationController
     @pages = Page.all
   end
 
-  def about
-    @pages = about_path
-
-  end
+  
 
   def show
     @page = Page.find(params[:id])
