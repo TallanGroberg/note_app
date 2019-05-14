@@ -3,6 +3,8 @@ class PagesController < ApplicationController
     @pages = Page.all
   end
 
+  
+
   def show
     @page = Page.find(params[:id])
   end
